@@ -1,0 +1,26 @@
+Name of files : dataRch.JJJ.NNN.TTT
+  JJJ : value of J_R   JJJ=010 means J_R=1.0
+  NNN : system size    NNN=128 means N = 128
+  TTT : type of calculation
+        TTT = i0        : type iA
+              i10.opXX  : type iB with \chi_opt=XX
+              i11.opXX  : type iC with \chi_opt=XX
+              i12s.opXX : type iD with \chi_opt=XX
+              i13s.opXX : type iE with \chi_opt=XX
+        where i=1,2 and s is the random seed for stochastic selection.
+  The files with ".rR" (R=1,2,3,4) added at the end of the name are
+  the ones of the calculation starting from PBT with random site ordering.
+
+The following is a list of the head characters of lines in the file and the data contained in that lines.
+
+  %gebnd    : the lowest energy E_0 obtained at each bond
+  %EEntbnd  : Entanglement Entropy at each bond
+  %ge1tbnd  : the lowest energy E'_0 defined in Eq.(3.3) at each bond
+  %1p       : local spin polarization
+
+    The data in the lines above were obtained in the last sweep for each \chi.
+    Similarly, the data in the lines starting with "%gemsw" ("%1tmsw") were 
+    obtained in the sweep that yields the smallest E_0 (E'_0) for each \chi.
+
+  %TTN  :  TTN structure
+
