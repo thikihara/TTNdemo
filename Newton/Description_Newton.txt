@@ -1,0 +1,10 @@
+Name of files : dataNewton(640).Rch.NNN.DDD
+   NNN : system size    NNN=128 means N = 128
+   DDD : value of \delta g used in decreasing g adiabatically
+         (ex. if DDD=100, \delta g = 1/100 = 0.01)
+
+The lines starting with "%ge:" contains the value of the exact ground-state energy.
+
+For NNN=64, the data for J_R=1.0, 4.0, 16.0 used in the manuscript are adopted from dataNewton.Rch.64.DDD, while those for J_R=64.0 are from dataNewton640.Rch.64.DDD: For those parameters, a strict judgement of convergence is performed in order to obtain the data with high accuracy.
+
+
